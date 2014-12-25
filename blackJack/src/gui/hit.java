@@ -109,11 +109,11 @@ public class hit extends JPanel  {
 					return;
 				}
 //					if(mainvvd.engine.Game.dealer.getSum_cards()>mainvvd.engine.Game.player.getSum_cards()){
-//						 JOptionPane.showMessageDialog(null,"you deler win   ");
+//						 JOptionPane.showMessageDialog(null," deler win   ");
 //						 return;
 //					}
 //					else{
-//						 JOptionPane.showMessageDialog(null,"you player  win   ");
+//						 JOptionPane.showMessageDialog(null," player  win   ");
 //					}
 //					return;
 //				}
@@ -142,12 +142,12 @@ public class hit extends JPanel  {
 				  hit.textField_score_deler.setText("" + mainvvd.engine.Game.dealer.getSum_cards());
 					
 						if(mainvvd.engine.Game.dealer.getSum_cards()>mainvvd.engine.Game.player.getSum_cards()){
-							 JOptionPane.showMessageDialog(null,"you deler win   ");
+							 JOptionPane.showMessageDialog(null,"dealer win   ");
 							 mainvvd.engine.Game.player.score-=mainvvd.engine.Game.player.scoreBet;
 							 
 						}
 						else{
-							 JOptionPane.showMessageDialog(null,"you player  win   ");
+							 JOptionPane.showMessageDialog(null,"player  win   ");
 							 mainvvd.engine.Game.player.score+=(mainvvd.engine.Game.player.scoreBet*2);
 						}
 						to2=1;
