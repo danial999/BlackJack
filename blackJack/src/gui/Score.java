@@ -27,11 +27,11 @@ public class Score extends JPanel {
 		btnPlay.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				if(mainvvd.engine.Game.player.score==0){
-					JOptionPane.showMessageDialog(null,"you dont have a mony  !!!  ");
+					JOptionPane.showMessageDialog(null,"you dont have enough budget  !!!  ");
 					return;
 				}
 				if(textField_Sum.getText().equals("")){
-			JOptionPane.showMessageDialog(null,"you have  to  to put a many !!!  ");
+			JOptionPane.showMessageDialog(null,"you need to choose bet !!!  ");
 
 					return;
 				}
