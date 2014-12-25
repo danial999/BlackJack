@@ -6,6 +6,7 @@ import javax.swing.JButton;
 import javax.swing.JTextField;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
+import javax.swing.JLabel;
 
 public class Score extends JPanel {
 	public  static JTextField textField_score_player;
@@ -99,7 +100,18 @@ public class Score extends JPanel {
 		btnClose.setBounds(82, 312, 89, 23);
 		add(btnClose);
 		
+		JLabel lblBudget = new JLabel("Budget");
+		lblBudget.setBounds(114, 65, 46, 14);
+		add(lblBudget);
+		
+		JLabel lblChooseBet = new JLabel("Choose Bet");
+		lblChooseBet.setBounds(10, 122, 67, 14);
+		add(lblChooseBet);
+		
+		JLabel lblBetTotal = new JLabel("Bet Total");
+		lblBetTotal.setBounds(125, 185, 46, 14);
+		add(lblBetTotal);
+		
 	
 	}
-
 }
